@@ -1,0 +1,71 @@
+/*<<><><><><><LATEST PRODUCTS<<><><<><*/
+.xol {
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0.8rem !important;
+}
+
+.olx {
+    overflow: auto !important;
+    scrollbar-width: none !important;
+}
+
+.olx::-webkit-scrollbar {
+    display: none;
+}
+
+.img-olx {
+    object-fit: contain !important;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    min-height: 190px !important;
+}
+
+.xol-heart {
+    position: relative;
+}
+
+.xol-heart a {
+    position: absolute;
+    right: 0;
+
+}
+
+.btn {
+    background-color: #0078FF;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: #fff;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 13px !important;
+    color: #fff;
+}
+
+.swiper-button-next {
+    color: orange !important;
+    background: orangered !important;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 60%;
+}
+
+.swiper-button-prev {
+    color: orange !important;
+    background: orangered !important;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 60%;
+}

@@ -1,0 +1,9 @@
+1.  explain the difference between a tier and a layer in web applications
+
+In the context of web applications, the terms "tier" and "layer" are often used interchangeably, but they have slightly different meanings.
+
+A tier refers to a physical or logical separation of different components or subsystems in an application. For example, a three-tier architecture for a web application might consist of a presentation tier (the user interface), an application tier (the business logic), and a data tier (the database).
+
+On the other hand, a layer refers to a logical separation of different components within a tier. For example, within the presentation tier of a web application, you might have a user interface layer, a business logic layer, and a data access layer.
+
+In other words, a tier refers to a horizontal separation of components, while a layer refers to a vertical separation of components within a tier. Tiers typically represent a higher-level architecture, while layers are more specific and detailed.

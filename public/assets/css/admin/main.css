@@ -1,0 +1,341 @@
+/**
+***
+    HOMEPAGE CSS
+***
+**/
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    background: #f6f9ff !important;
+    color: #444444 !important;
+
+}
+
+
+p {
+    font-size: 0.8rem;
+}
+
+
+a {
+    color: #41cf2e !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #717ff5;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Nunito", sans-serif !important;
+}
+
+
+
+input {
+    border: none !important;
+}
+
+.color-1 {
+    color: #1BBFE9;
+}
+
+li {
+    list-style: none;
+}
+
+
+.web-color {
+    background: rgb(6, 242, 6);
+}
+
+.icon-color {
+    color: rgb(6, 242, 6);
+}
+
+.header-nav {
+    background-color: black;
+    color: #fff;
+
+}
+
+.logo-1 {
+    width: 15rem;
+    height: 3.5rem !important;
+
+}
+
+.logo-image {
+
+    height: 3.5rem !important;
+    object-fit: cover !important;
+}
+
+.info-divider {
+    border-right: solid thin #000;
+}
+
+.info-divider-left {
+    border-left: solid thin #000;
+}
+
+.info-description {
+    font-size: 0.8rem !important;
+    font-family: cursive !important;
+}
+
+.navcolor {
+    background-color: #ffff !important;
+}
+
+.navbar-home {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 3rem !important;
+}
+
+.nav-item .nav-link {
+    transition: all 1s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(6, 242, 6) !important;
+}
+
+.card-1 {
+    background: transparent !important;
+    background-image: url("./img/agri2.jpg") !important;
+    opacity: 1;
+    color: gold;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+/*<><><><><<><>WELCOME AFTER BANNER CARDS<><><><><>*/
+.welcome {
+    font-size: 4rem;
+    color: #009a4e;
+    font-family: cursive;
+
+}
+
+.welcome-description {
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 30px;
+
+}
+
+/*<><><><>service<><><><<><*/
+.services-img {
+    background-image: url("./img/agri6.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*<<><><><><><LATEST PRODUCTS<<><><<><*/
+.xol {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.olx {
+    overflow: auto !important;
+    scrollbar-width: none !important;
+}
+
+.olx::-webkit-scrollbar {
+    display: none;
+}
+
+.img-olx {
+    object-fit: contain !important;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    min-height: 190px !important;
+}
+
+.xol-heart {
+    position: relative;
+}
+
+.xol-heart a {
+    position: absolute;
+    right: 0;
+
+}
+
+.btn {
+    background-color: #0078FF;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: #fff;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 13px !important;
+    color: #fff;
+}
+
+.swiper-button-next {
+    color: orange !important;
+    background: orangered !important;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 60%;
+}
+
+.swiper-button-prev {
+    color: orange !important;
+    background: orangered !important;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 60%;
+}
+
+/*<><><><><><>ABOUT<><><><><><*/
+.about {
+    background: #A3EBE2;
+
+}
+
+/*<><><><><><FOOTER<><><><><><><><*/
+.footer {
+    background-color: rgb(60, 59, 59);
+    color: #fff;
+}
+
+
+
+
+
+
+/*<><><><><><><><><ADMIN PANEL<><><><><><><><><*/
+/*<><><><><><><><><ADMIN PANEL<><><><><><><><><*/
+/*<><><><><><><><><ADMIN PANEL<><><><><><><><><*/
+/*<><><><><><><><><ADMIN PANEL<><><><><><><><><*/
+/*<><><><><><><><><ADMIN PANEL<><><><><><><><><*/
+
+.navbar1 {
+    height: 3rem !important;
+    border: solid red !important;
+
+}
+
+.side-nav {
+    top: 5rem !important;
+    width: 300px !important;
+
+    border: solid red !important;
+}
+
+.nav-color {
+    background: #1e4356 !important;
+    color: #41cf2e !important;
+}
+
+.form-control {
+    border: solid thin black !important;
+
+    box-shadow: none !important;
+
+}
+
+
+.profile {
+    max-height: 35px !important;
+    max-width: 35px !important;
+
+
+}
+
+.profile img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-login {
+    display: none !important;
+}
+
+@media (min-width:992px) {
+
+
+
+    .side-nav {
+
+        transform: none !important;
+        visibility: visible;
+    }
+
+    .navbar-toggler {
+        display: none !important;
+    }
+
+    .btn-close {
+        display: none !important;
+    }
+
+    main {
+
+        padding-left: 270px !important;
+    }
+
+    .bt {
+        display: none;
+    }
+
+
+
+
+
+}
+
+@media (max-width:788px) {
+
+    /*
+    *HOME
+    */
+    .info {
+        display: none !important;
+    }
+
+    .info-login {
+        display: block !important;
+        display: flex !important;
+        margin: auto !important;
+
+    }
+
+
+
+
+
+    /*
+    *ADMIN
+    */
+    .search {
+        display: none !important;
+
+    }
+}
